@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1587794a-cdd3-48a6-9f5a-68d376409915" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/gradle/gradle.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/service/CashbackHackServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/CashbackHackServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/service/CashbackHackServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/service/CashbackHackServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +45,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "C:/Users/zorin/OneDrive/Desktop/CashBackHacker1/src/test/java",
-    "last_opened_file_path": "C:/Users/zorin/OneDrive/Desktop/CashBackHacker1/gradle",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/zorin/OneDrive/Desktop/CashBackHacker1/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zorin/OneDrive/Desktop/CashBackHacker1/gradle&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zorin\OneDrive\Desktop\CashBackHacker1\gradle" />
@@ -67,50 +64,8 @@
       <recent name="service" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CashbackHackServiceTest.shouldCalculateIfAmount1000">
-    <configuration name="CashBackHacker1 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CashBackHacker1 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CashbackHackServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CashbackHackServiceTest.shouldCalculateIfAmountIncorrect (1)">
+    <configuration name="CashbackHackServiceTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -123,7 +78,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;service.CashbackHackServiceTest&quot;" />
+            <option value="&quot;ru.netology.service.CashbackHackServiceTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -133,7 +88,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CashbackHackServiceTest.shouldCalculateIfAmount1000" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CashbackHackServiceTest.shouldCalculateIfAmount1000 (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -146,7 +101,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;service.CashbackHackServiceTest.shouldCalculateIfAmount1000&quot;" />
+            <option value="&quot;ru.netology.service.CashbackHackServiceTest.shouldCalculateIfAmount1000&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -156,7 +111,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CashbackHackServiceTest.shouldCalculateIfAmountIncorrect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CashbackHackServiceTest.shouldCalculateIfAmountCorrect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -169,7 +124,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;service.CashbackHackServiceTest.shouldCalculateIfAmountIncorrect&quot;" />
+            <option value="&quot;ru.netology.service.CashbackHackServiceTest.shouldCalculateIfAmountCorrect&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CashbackHackServiceTest.shouldCalculateIfAmountIncorrect (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.service.CashbackHackServiceTest.shouldCalculateIfAmountIncorrect&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CashbackHackServiceTest.shouldCalculateIfAmountZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.service.CashbackHackServiceTest.shouldCalculateIfAmountZero&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -181,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CashbackHackServiceTest.shouldCalculateIfAmount1000" />
-        <item itemvalue="Gradle.CashbackHackServiceTest.shouldCalculateIfAmountIncorrect" />
-        <item itemvalue="Gradle.CashbackHackServiceTest" />
-        <item itemvalue="Gradle.CashBackHacker1 [test]" />
-        <item itemvalue="Gradle.CashBackHacker1 [dependencies]" />
+        <item itemvalue="Gradle.CashbackHackServiceTest.shouldCalculateIfAmountIncorrect (1)" />
+        <item itemvalue="Gradle.CashbackHackServiceTest.shouldCalculateIfAmount1000 (1)" />
+        <item itemvalue="Gradle.CashbackHackServiceTest.shouldCalculateIfAmountZero" />
+        <item itemvalue="Gradle.CashbackHackServiceTest.shouldCalculateIfAmountCorrect" />
+        <item itemvalue="Gradle.CashbackHackServiceTest (1)" />
       </list>
     </recent_temporary>
   </component>
