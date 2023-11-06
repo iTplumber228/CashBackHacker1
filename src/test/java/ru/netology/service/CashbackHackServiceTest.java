@@ -8,34 +8,30 @@ public class CashbackHackServiceTest {
     CashbackHackService service = new CashbackHackService();
 
     @Test
-    public void shouldCalculateIfAmountCorrect() {
-        int amount = 5700;
-        int actual = service.remain(amount);
-        int expected = 300;
-        assertEquals(actual, expected);
-    }
-
-    @Test
-    public void shouldCalculateIfAmountZero() {
-        int amount = 0;
-        int actual = service.remain(amount);
-        int expected = 1000;
-        assertEquals(actual, expected);
-    }
-
-    @Test
-    public void shouldCalculateIfAmount1000() {
+    public void shouldCalcCashBack() {
+        CashbackHackService service = new CashbackHackService();
         int amount = 1000;
+        int expected = 0;
         int actual = service.remain(amount);
-        int expected = 1000;
         assertEquals(actual, expected);
     }
 
     @Test
-    public void shouldCalculateIfAmountIncorrect() {
-        int amount = -50000;
+    public void shouldCalcCashBackIfOver() {
+        CashbackHackService service = new CashbackHackService();
+        int amount = 1400;
+        int expected = 600;
         int actual = service.remain(amount);
-        int expected = 1000;
         assertEquals(actual, expected);
     }
+
+    @Test
+    public void shouldCalcCashBackIfUnder() {
+        CashbackHackService service = new CashbackHackService();
+        int amount = 300;
+        int expected = 700;
+        int actual = service.remain(amount);
+        assertEquals(actual, expected);
+    }
+
 }
