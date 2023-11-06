@@ -1,18 +1,17 @@
-package service;
+package ru.netology.service;
 
-import org.junit.jupiter.api.Test;
-import ru.netology.service.CashbackHackService;
+import org.testng.annotations.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.testng.Assert.*;
 
 public class CashbackHackServiceTest {
     @Test
     public void shouldCalcCashBack() {
         CashbackHackService service = new CashbackHackService();
-        int amount = 0;
-        int expected = 1000;
+        int amount = 1000;
+        int expected = 0;
         int actual = service.remain(amount);
-        assertEquals(expected, actual);
+        assertEquals(actual, expected);
     }
 
     @Test
@@ -21,7 +20,7 @@ public class CashbackHackServiceTest {
         int amount = 1400;
         int expected = 600;
         int actual = service.remain(amount);
-        assertEquals(expected, actual);
+        assertEquals(actual, expected);
     }
 
     @Test
@@ -30,7 +29,7 @@ public class CashbackHackServiceTest {
         int amount = 300;
         int expected = 700;
         int actual = service.remain(amount);
-        assertEquals(expected, actual);
+        assertEquals(actual, expected);
     }
 
 }
